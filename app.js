@@ -4,6 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 8000
 app.use(cors());
 
+const materias = [
+    'Algoritmos', 'Matematica', 'Ingles'
+]
 const users = [
     {
         id: '1',
@@ -40,5 +43,7 @@ const users = [
 app.get('/api/users', (req, res) =>  res.json({'result': users}));
 
 app.get('/api/users/:id', (req, res) => res.json({'result': users.filter(user => user.id === req.params.id)}));
+
+app.get('/api/materias', (req,res) => res.json({'result': materias}))
 
 app.listen(PORT);
