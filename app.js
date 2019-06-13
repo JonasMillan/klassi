@@ -50,41 +50,47 @@ const users = [
         materias: ['mate', 'algo', 'base']
     },
 ];
-
 const profesores = [
     {
         id: '1',
         nombre: 'Marcos',
+        apellido:'apellido profe',
         idMateria: '1'
     },
     {
         id: '2',
         nombre: 'Profe de mate',
+        apellido:'apellido profe',
         idMateria: '2'
     },
     {
         id: '3',
         nombre: 'Profe de Ingles',
+        apellido:'apellido profe',
         idMateria: '3'
     },
     {
         id: '4',
         nombre: 'Profe de Ingles2',
+        apellido:'apellido profe',
         idMateria: '3'
     },
     {
         id: '5',
         nombre: 'Profe de Mate2',
+        apellido:'apellido profe',
         idMateria: '2'
     },
     {
         id: '6',
         nombre: 'Profe de Mate3',
+        apellido:'apellido profe',
         idMateria: '2'
     },
     {
         id: '7',
         nombre: 'Profe de Algoritmos',
+        apellido:'apellido profe',
         idMateria: '1'
     },
 ]
