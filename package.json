@@ -1,15 +1,26 @@
 {
-  "name": "klassi-proto",
-  "version": "1.0.0",
+  "name": "klassi",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ort kids",
+  "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.6",
+    "mongoose-pagination": "^1.0.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
   }
 }
