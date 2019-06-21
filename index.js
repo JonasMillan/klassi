@@ -5,7 +5,7 @@ const config = require("./config");
 const { seeds } = require("./seeds");
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect(config.MONGO_DB, { useNewUrlParser: true }, async (error, response) => {
+mongoose.connect(config.MONGODB_URI, { useNewUrlParser: true }, async (error, response) => {
   if(error){
     return console.log(`Connection error ${error}`);
   }
